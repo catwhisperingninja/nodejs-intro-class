@@ -22,11 +22,11 @@ npm install dotenv
 
 Within project directory run:
 http-server
-
 Open a browser and navigate to http://localhost:8080 to see the website.
 
+
 - Expose localhost server to the Internet 
-# (SCARY! DO NOT DO AT HOME UNTIL YOU UNDERSTAND FIREWALLS!)
+#### (DO NOT DO AT HOME UNTIL PROXIES AND FIREWALLS ARE EXPLAINED)
 
 ## Install Ngrok
 
