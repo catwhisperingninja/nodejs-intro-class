@@ -58,6 +58,9 @@ Place it in the index.html file where requested.
 This is awful security practice, but let's just get this party started and discuss .env later.
 
 ## License
-
 Information about the project's license.
 CC License
+
+# Resources
+More NodeJS tutorials: https://www.guru99.com/node-js-tutorial.html
+Might use this project in further stages https://github.com/segmentio/analytics-node
