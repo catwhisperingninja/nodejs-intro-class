@@ -1,6 +1,5 @@
 # Build Skeleton Website to Learn Analytics
 
-A brief description of what this project is about.
 Used "JS NODE Git Teacher Guru GPT" for code
 
 ## Prep
@@ -9,7 +8,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubunt
 
 ### git-clone this repo
 ### Create new dev branch named "dev" to separate our work
-git checkout -b dev 
+git checkout -b dev
+Now your work will be saved to a separate branch. To push: git push  --set-upstream origin dev
 
 ## Server Setup
 ### Install various NPM packages
