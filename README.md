@@ -1,34 +1,33 @@
-# Project Title
+# Build Skeleton Website to Learn Analytics
 
 A brief description of what this project is about.
-
 Used "JS NODE Git Teacher Guru GPT" for code
 
-## Table of Contents
-
-- Prep
+## Prep
 ### Install NodeJS with nvm
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
 
-### Clone repo Laura provided
+### git-clone this repo
+### Create new dev branch named "dev" to separate our work
+git checkout -b dev 
 
-- Server Setup
-## Install various NPM packages
+## Server Setup
+### Install various NPM packages
 
 npm install -g http-server
 npm install dotenv
 
-## Start Local Server
+### Start Local Server
 
 Within project directory run:
 http-server
 Open a browser and navigate to http://localhost:8080 to see the website.
 
 
-- Expose localhost server to the Internet 
-#### (DO NOT DO AT HOME UNTIL PROXIES AND FIREWALLS ARE EXPLAINED)
+## Expose localhost server to the Internet 
+## (DO NOT DO AT HOME UNTIL PROXIES AND FIREWALLS ARE EXPLAINED)
 
-## Install Ngrok
+### Install Ngrok
 
 https://ngrok.com
 
@@ -44,20 +43,19 @@ Run to get your unique token to receive a config file:
 ngrok config add-authtoken 2kBL6WY38NvKFmlvCA81MGeQoKc_3xfyQk5Jci9Aqxx1ZssE1
 This saves it to your hidden config file
 
-### Finally expose the server
+### Expose the server
 
 Run
 ngrok http http://localhost:8080
 
 Also visit http://localhost:4040. This depicts super-basic HTTP request examples. 
 
-- Analytics connection
-## Now open Google Analytics account here: https://analytics.google.com
-
+## Analytics connection
+Open Google Analytics account here: https://analytics.google.com
 Create a new website property. 
 Copy the tracking code GA will provide. 
-Place it in the .gitignore file. Will explain more soon. 
-
+Place it in the index.html file where requested.
+This is awful security practice, but let's just get this party started and discuss .env later.
 
 ## License
 
