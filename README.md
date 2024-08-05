@@ -9,7 +9,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubunt
 ### git-clone this repo
 ### Create new dev branch named "dev" to separate our work
 git checkout -b dev
-Now your work will be saved to a separate branch. To push: git push  --set-upstream origin dev
+Now your work will be saved to a separate branch. /
+To push: git push  --set-upstream origin dev
 
 ## Server Setup
 ### Install various NPM packages
@@ -19,7 +20,7 @@ npm install dotenv
 
 ### Start Local Server
 
-Within project directory run:
+Within project directory run:/
 http-server
 Open a browser and navigate to http://localhost:8080 to see the website.
 
@@ -33,8 +34,8 @@ https://ngrok.com
 
 ### Download. Install in PROJECT folder
 
-Remove the URL from the line they tell you to run
-Place .tar in project directory
+Remove the URL from the line they tell you to run/
+Place .tar in project directory /
 
 tar -xvzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
 
