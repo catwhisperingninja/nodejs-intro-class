@@ -8,7 +8,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubunt
 
 ### git-clone this repo
 ### Create new dev branch named "dev" to separate our work
-g`it checkout -b dev`  
+`git checkout -b dev`  
 Now your work will be saved to a separate branch.  
 To push to the dev branch:  
 `git push  --set-upstream origin dev`  
@@ -16,18 +16,17 @@ To push to the dev branch:
 ## Server Setup
 ### Install various NPM packages
 
-`npm install -g http-server`  
+`npm install express`  
 `npm install dotenv`  
 
 ### Start Local Server
 
 Within project directory run:  
-`http-server`  
-Open a browser and navigate to http://localhost:8080 to see the website.
+`node server.js`  
+Open a browser and navigate to http://localhost:3000 to see the website.
 
 
 ## Expose localhost server to the Internet 
-## (DO NOT DO AT HOME UNTIL PROXIES AND FIREWALLS ARE EXPLAINED)
 
 ### Install Ngrok
 
@@ -50,7 +49,17 @@ This saves it to your hidden config file
 Run  
 `ngrok http http://localhost:8080`  
 
-Also visit http://localhost:4040. This depicts super-basic HTTP request examples. 
+Also visit http://localhost:4040. This depicts super-basic HTTP request examples.  
+Stop the ngrok server with Cntrl + C.  
+
+## Set up free ngrok domain
+Visit https://dashboard.ngrok.com/cloud-edge/domains
+Generate free sample domain  
+Stop localhost:8080 domain running above with Cntrl + C  
+Run provided code to intiate a new tunnel running the new domain (change the port to 8080):  
+<code>
+Visit generated domain  
+
 
 ## Analytics connection
 Open Google Analytics account here: https://analytics.google.com  
