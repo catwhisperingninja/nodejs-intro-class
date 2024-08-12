@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>My Website</title>
+            <title>Holy Shit!</title>
             <link rel="stylesheet" href="style.css">
             <!-- Google Analytics -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_TRACKING_ID}"></script>
@@ -28,7 +28,8 @@ app.get('/', (req, res) => {
             </script>
         </head>
         <body>
-            <h1>Welcome to My Website</h1>
+            <h1>OMFG YOU DID IT!!</h1>
+            <h2>Yes indeed, yes, you can do this!<
             <script src="script.js"></script>
         </body>
         </html>

@@ -54,24 +54,28 @@ https://ngrok.com/download
 ### Download Ngrok (Linux) and install in project folder
 Always download the x86_64 version for Linux. This refers to your CPU architecture.  
 ![This one](screenshots/chipset.png)  
-Place .tar in project directory  
-Run `tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin`  
+Move the .tgz file to your project directory  
+Unzip the .tgz: `tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin`  
 This command extracts the file to the /usr/local/bin directory.  
+Delete the .tgz file: `rm ~/Downloads/ngrok-v3-stable-linux-amd64.tgz` (_If you don't delete it, you may run into file size issues when pushing to GitHub._)
 
-Run to get your unique token to receive a config file:  
-
-`ngrok config add-authtoken 2kBL6WY38NvKFmlvCA81MGeQoKc_3xfyQk5Jci9Aqxx1ZssE1`  
-This saves it to your hidden config file  
+### Get a unique token to receive a config file:  
+Register for a free account  
+Your token is located here: https://dashboard.ngrok.com/get-started/setup  
+_Note: The token is unique to you and should not be shared with others._
+Run `ngrok config add-authtoken <your-token>`  
+This saves the token to your config file. Find the location by running `ngrok config check`, but only if you're curious.  
+_Yay for config files! If something is broken, there's a good chance the config file has something to with it - and there's also a good chance it's a simple syntax error._
 
 ## Set up free ngrok domain
-Visit https://dashboard.ngrok.com/cloud-edge/domains
-Generate free sample domain and copy the name   
+You need to set up a domain for analytics to work.  
+Visit https://dashboard.ngrok.com/cloud-edge/domains  
+Generate free sample domain and copy the name  
 
 ## Expose localhost server to the Internet
 Run the code below to expose the server using your generated domain name on port 3000:  
-`ngrok http --domain dragon-pet-equally.ngrok-free.app 3000`  (_The syntax might get you here - there's a space between --domain and the domain name_)
-Visit generated domain  
-
+`ngrok http --domain <generated-domain> 3000`  (_The syntax might get you here - there's a space between --domain and the domain name_)
+Visit generated domain...from anywhere!  
 
 ## Analytics connection
 Open Google Analytics account here: https://analytics.google.com  
