@@ -53,7 +53,7 @@ https://ngrok.com/download
 
 ### Download Ngrok (Linux) and install in project folder
 Always download the x86_64 version for Linux. This refers to your CPU architecture.  
-![This one](Screenshots/chipset.png)  
+![This one](screenshots/chipset.png)  
 Place .tar in project directory  
 Run `tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin`  
 This command extracts the file to the /usr/local/bin directory.  
