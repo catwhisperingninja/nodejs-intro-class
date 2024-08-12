@@ -19,19 +19,21 @@ When running a local server on your own system, the URL is either `localhost` or
 Example: `http://localhost:8080`. Note that the URL is HTTP, not HTTPS.  
 For this project, we will use HTTP port 3000: `http://localhost:3000`.
 
-## Prep
+## Adventure Time!
 ### Install NodeJS with nvm
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
 
 ### git-clone this "nodejs-intro-class" repo  
-### Create a new git branch named "dev" to separate our work:  
+### Create a new git branch named "dev" to separate your work:  
 `git checkout -b <your-new-branch-name>`  
-Now your work will be saved to this separate branch.  
 To push to your new branch:  
 `git push  --set-upstream origin <your-new-branch-name>`  
+Now your work will be saved to this separate branch.  
 
 ## Server Setup
-### Install various NPM packages
+### Install various NodeJS NPM packages
+NPM is one of the main package managers for NodeJS.
+This is the same concept as pip for Python or apt for Ubuntu.  
 
 `npm install express`  
 `npm install dotenv`  
@@ -41,6 +43,7 @@ To push to your new branch:
 Within the cloned repo project directory the "server.js" file is located in, run:  
 `node server.js`  
 Open a browser and navigate to http://localhost:3000 to see the website.
+You must be in the same directory as the `server.js` file to run the server.  
 
 ## Expose localhost server to the Internet 
 
@@ -50,7 +53,7 @@ https://ngrok.com/download
 
 ### Download Ngrok (Linux) and install in project folder
 Always download the x86_64 version for Linux. This refers to your CPU architecture.  
-![This one](/home/pseudok/Pictures/Screenshots/chipset.png "a title")
+![This one](/home/pseudok/Pictures/Screenshots/chipset.png)
 Place .tar in project directory  
 Run `tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin`  
 This command extracts the file to the /usr/local/bin directory.  
