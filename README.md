@@ -8,10 +8,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubunt
 
 ### git-clone this repo
 ### Create new dev branch named "dev" to separate our work
-`git checkout -b dev`  
+`git checkout -b <your-new-branch-name`  
 Now your work will be saved to a separate branch.  
 To push to the dev branch:  
-`git push  --set-upstream origin dev`  
+`git push  --set-upstream origin <your-new-branch-name`  
 
 ## Server Setup
 ### Install various NPM packages
