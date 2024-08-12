@@ -8,7 +8,7 @@ Used "JS NODE Git Teacher Guru GPT" for code
 HTTP is the protocol that creates the hyperlinks you click to access websites.  
 HTTPS is the secure version of HTTP. It encrypts the data sent between your browser and the website.  
 HTTPS is critical for security and nearly all websites use it.  
-For this project, we will use HTTP due to the complexity of setting up HTTPS, since configuring HTTPS is not something you will likely need to understand. 
+For this project, we will use HTTP due to the complexity of setting up HTTPS, since configuring HTTPS is not something you will likely need to understand.  
 Further reading: https://www.cloudflare.com/learning/ssl/what-is-https  
 
 ## Ports
@@ -53,7 +53,7 @@ https://ngrok.com/download
 
 ### Download Ngrok (Linux) and install in project folder
 Always download the x86_64 version for Linux. This refers to your CPU architecture.  
-![This one](/home/pseudok/Pictures/Screenshots/chipset.png)
+![This one](Screenshots/chipset.png)  
 Place .tar in project directory  
 Run `tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin`  
 This command extracts the file to the /usr/local/bin directory.  
