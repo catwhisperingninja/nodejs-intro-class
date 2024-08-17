@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
         </head>
         <body>
             <h1>OMFG YOU DID IT!!</h1>
-            <h2>Yes indeed, yes, you can do this!<
+            <h2>Yes indeed, yes, you can do this!</h2>
             <script src="script.js"></script>
         </body>
         </html>
