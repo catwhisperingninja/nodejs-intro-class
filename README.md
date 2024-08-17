@@ -74,7 +74,7 @@ Generate free sample domain and copy the name
 
 ## Expose localhost server to the Internet
 Run the code below to expose the server using your generated domain name on port 3000:  
-`ngrok http --domain <generated-domain> 3000`  (_The syntax might get you here - there's a space between --domain and the domain name_)  
+`ngrok http --domain <generated-domain> 3000`  (_The syntax might get you here - there's a space between --domain and the domain name and it also must include `.ngrok-free.app <port>` at the the end_)  
 Now you can visit the generated domain...from anywhere!  
 
 ## Analytics connection (_**hold on this - still working on it**_)
